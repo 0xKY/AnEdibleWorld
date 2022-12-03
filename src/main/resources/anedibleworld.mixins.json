@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.kaloyankys.anedibleworld.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerEntityMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

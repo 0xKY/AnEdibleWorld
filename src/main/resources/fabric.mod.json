@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "anedibleworld",
+  "version": "${version}",
+  "name": "An Edible World",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/anedibleworld/aew_logo_32x.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.kaloyankys.anedibleworld.client.AnEdibleWorldClient"
+    ],
+    "main": [
+      "me.kaloyankys.anedibleworld.AnEdibleWorld"
+    ]
+  },
+  "mixins": [
+    "anedibleworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
